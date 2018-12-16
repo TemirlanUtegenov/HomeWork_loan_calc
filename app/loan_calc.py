@@ -21,10 +21,3 @@ def calculate_loan(summ, rate, period):
             (1 + temp) * period - 1)
 
     return round(monthly_pay)
-
-
-summ = 500000
-rate = 8
-period = 12
-
-print('Monthly payment is ', calculate_loan(summ, rate, period))
